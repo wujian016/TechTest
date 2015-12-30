@@ -14,7 +14,11 @@ namespace Wujian.Tech
         {
            // Wujian.Tech.Base.Inteface.Test();
 
-            Excel.Test();
+           //Excel.Test();
+
+           // Html.Test();
+
+            Json.Test();
 
             Console.ReadKey();
         }
