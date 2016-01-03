@@ -5,6 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechTest", "TechTest\TechTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETTest", "ASPNETTest\ASPNETTest.csproj", "{9CF6BA25-31BC-4262-B2D3-EA59D7955DAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{28BAD67E-6E0B-46A8-AC41-4274811C9474}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{224D592A-FECE-44A6-84B0-D1C092EE3D4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +26,10 @@ Global
 		{9CF6BA25-31BC-4262-B2D3-EA59D7955DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF6BA25-31BC-4262-B2D3-EA59D7955DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF6BA25-31BC-4262-B2D3-EA59D7955DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224D592A-FECE-44A6-84B0-D1C092EE3D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224D592A-FECE-44A6-84B0-D1C092EE3D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224D592A-FECE-44A6-84B0-D1C092EE3D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224D592A-FECE-44A6-84B0-D1C092EE3D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

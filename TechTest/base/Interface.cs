@@ -3,12 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace Wujian.Tech.Base
 {
-    class Inteface
+    public class Inteface
     {
-       internal static void Test()
+        [Fact]
+        public void PassingTest()
+        {
+            Assert.Equal(4, Add(2, 2));
+        }
+
+        [Fact]
+        public void FailingTest()
+        {
+            Assert.Equal(5, Add(2, 2));
+        }
+
+        int Add(int x, int y)
+        {
+            return x + y;
+        }
+         
+       internal void Test()
         {
             /*
              http://developer.51cto.com/art/200908/146045.htm 
@@ -58,6 +76,8 @@ namespace Wujian.Tech.Base
             Console.WriteLine("Test using multiple interface");
             Combox cb = new Combox();
             cb.Paint();
+
+
 
         }
     }
